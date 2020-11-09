@@ -16,5 +16,6 @@ The static files are in the public folder.
 ## To Run the project
 - clone the repository https://github.com/kanhayaKy/TodoList
 - To use localdatabase , start your mongodb server by running the command : mongod 
+- To use a cloud database , copy your database url to the variable 'url' in app.js
 - Navigate into the project and run the app.js using the command  : node app.js
 - You're now ready to create your todo list.
