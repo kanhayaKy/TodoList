@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 // Database setup
-var URL = "mongodb://localhost:27017/todolistDb"
+var URL = "mongodb://localhost:27017/todolistDb";
 mongoose.connect(URL ,{ useNewUrlParser: true });
 
 // Database schema
